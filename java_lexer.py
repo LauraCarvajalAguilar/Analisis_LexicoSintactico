@@ -112,3 +112,118 @@ def t_PRIVATE(t):
     r'private'
     return t
     
+def t_PROTECTED(t):
+    r'protected'
+    return t
+
+def t_PUBLIC(t):
+    r'public'
+    return t
+
+def t_RETURN(t):
+    r'return'
+    return t
+
+def t_STATIC(t):
+    r'static'
+    return t
+
+def t_SWITCH(t):
+    r'switch'
+    return t
+
+def t_THROW(t):
+    r'throw'
+
+def t_TRY(t):
+    r'try'
+    return t
+
+def t_IMPORT(t):
+    r'import'
+    return t
+
+def t_WHILE(t):
+    r'while'
+    return t
+
+def t_TRUE(t):
+    r'true'
+    return t
+
+def t_FALSE(t):
+    r'false'
+    return t
+
+def t_SYSTEM(t):
+    r'System'
+    return t
+
+def t_OUT(t):
+    r'out'
+    return t
+
+def t_INT(t):
+    r'int'
+    return t
+
+def t_FLOAT(t):
+    r'float'
+    return t
+
+def t_DOUBLE(t):
+    r'double'
+    return t
+
+def t_BOOLEAN(t):
+    r'boolean'
+    return t
+
+def t_STRING(t):
+    r'String'
+    return t
+
+def t_CHAR(t):
+    r'char'
+    return t
+    
+# simbolos
+t_SignoMas      = r'\+'
+t_SignoMenos   = r'-'
+t_SignoMultiplicar     = r'\*'
+t_SignoDividir    = r'/'
+t_Asignacion    = r'='
+t_Menor     = r'<'
+t_Mayor   = r'>'
+t_PuntoyComa      = r';'
+t_COMA     = r','
+t_ParentesisIzquierdo    = r'\('
+t_ParentesisDerecho   = r'\)'
+t_CorcheteIzquierda  = r'\['
+t_CorcheteDerecha  = r'\]'
+t_LlaveIzquierda    = r'{'
+t_LlaveDerecha    = r'}'
+t_DosPuntos     = r':'
+t_Punto       = r'\.'
+t_ComillasDobles    = r'\"'
+t_ComillasSimples = r'\''
+
+def t_MenorIgual(t):
+    r'<='
+    return t
+
+def t_MayorIgual(t):
+    r'>='
+    return t
+
+def t_Diferente(t):
+    r'!='
+    return t
+
+def t_ComparacionIgual(t):
+    r'=='
+    return t
+
+def t_MenosMenos(t):
+    r'--'
+    return t
